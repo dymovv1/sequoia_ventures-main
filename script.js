@@ -76,7 +76,7 @@ function animOnScroll() {
     for(let i = 0; i < anchors.length; i++) {
       const anchor = anchors[i];
       const anchorHight = anchor.offsetHeight;
-      const anchorOffSet = offset(anchor).top - 80;
+      const anchorOffSet = offset(anchor).top - 550;
       const animStart = 4;
 
       let anchorPoint = (window.innerHeight - anchorHight) / anchorOffSet;
@@ -166,37 +166,4 @@ function setValue() {
 setInterval(setValue, 5000);
 
 
-// anchor logic 
 
-const btnFintech = document.querySelector('.header-fintech');
-const btnMiltech = document.querySelector('.header-miltech');
-const btnClimate = document.querySelector('.header-climate');
-const btnNext = document.querySelector('.header-next');
-const btnAi = document.querySelector('.header-ai');
-
-const anchorFintech = document.getElementById('fintech');
-const anchorMiltech = document.getElementById('miltech');
-const anchorClimate = document.getElementById('climate');
-const anchorNext = document.getElementById('next');
-const anchorAi = document.getElementById('ai');
-
-
-btnFintech.addEventListener('click', function() {
-    anchorFintech.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-});
-
-btnMiltech.addEventListener('click', function() {
-    anchorMiltech.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-});
-
-btnClimate.addEventListener('click', function() {
-    anchorClimate.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-});
-
-btnNext.addEventListener('click', function() {
-    anchorNext.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-});
-
-btnAi.addEventListener('click', function() {
-    anchorAi.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-});

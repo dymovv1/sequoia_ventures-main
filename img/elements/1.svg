@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+	 viewBox="0 0 81.8 88.6" style="enable-background:new 0 0 81.8 88.6;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#3C3B6F;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#C51D26;}
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#C51D26;}
 </style>
 <g>
-	<path class="st1" d="M33,14.15h23.79v83.52H41.01V29.08H23.8L33,14.15z"/>
-	<path class="st2" d="M95.28,81.48c2.46,0,4.56,0.86,6.3,2.58c1.74,1.72,2.61,3.81,2.61,6.27s-0.87,4.56-2.61,6.3
-		c-1.74,1.74-3.84,2.61-6.3,2.61c-2.46,0-4.56-0.87-6.3-2.61c-1.74-1.74-2.61-3.84-2.61-6.3s0.87-4.55,2.61-6.27
-		C90.72,82.34,92.82,81.48,95.28,81.48z"/>
+	<path class="st0" d="M9.9,2.5h23.8V86H17.9V17.5H0.7L9.9,2.5z"/>
+	<path class="st1" d="M72.2,69.9c2.5,0,4.6,0.9,6.3,2.6c1.7,1.7,2.6,3.8,2.6,6.3s-0.9,4.6-2.6,6.3c-1.7,1.7-3.8,2.6-6.3,2.6
+		c-2.5,0-4.6-0.9-6.3-2.6c-1.7-1.7-2.6-3.8-2.6-6.3s0.9-4.6,2.6-6.3C67.6,70.7,69.7,69.9,72.2,69.9z"/>
 </g>
 </svg>
