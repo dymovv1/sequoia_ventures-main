@@ -690,8 +690,8 @@ hr {
     color: var(--mainColor);
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
     font-size: 18px;
+    margin: auto auto 20px auto;
 }
 
 .portfolio-item {
@@ -1180,6 +1180,7 @@ img.anim-item {
 
     .portfolio-list__title {
         text-align: left;
+        margin: 0px 0px 20px 0px ;
     }
 
     .portfolio .title {
@@ -1260,9 +1261,7 @@ img.anim-item {
     width: 108%; 
 }
 
-.svg-blockchain {
-    width: 255.63px;
-}
+
 .svg-index {
     position: relative;
     z-index: 2;
@@ -1279,7 +1278,16 @@ img.anim-item {
 
 }
 
+.svg-blockchain {
+    width: 255.63px;
+}
+
 .principles-item__photo  {
     width: 200px;
     height: 198.42px;
+}
+.portfolio-item__education {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
