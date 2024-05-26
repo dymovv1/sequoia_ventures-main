@@ -1288,7 +1288,7 @@ img.anim-item {
 }
 
 @media screen and (max-width:820px) {
-    .principles-item__photo  {
+    .principles-item__photo , .principles-item__number  {
         width: 100px;
         height: 108px;
     }
