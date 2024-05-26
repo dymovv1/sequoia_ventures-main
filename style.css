@@ -1286,6 +1286,14 @@ img.anim-item {
     width: 200px;
     height: 198.42px;
 }
+
+@media screen and (max-width:820px) {
+    .principles-item__photo  {
+        width: 100px;
+        height: 108px;
+    }
+    
+}
 .portfolio-item__education {
     display: flex;
     flex-direction: column;
